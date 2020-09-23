@@ -1,0 +1,6 @@
+framework module Pods_YKNetworking_Tests {
+  umbrella header "Pods-YKNetworking_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

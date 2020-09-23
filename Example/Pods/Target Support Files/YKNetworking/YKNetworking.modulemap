@@ -1,0 +1,6 @@
+framework module YKNetworking {
+  umbrella header "YKNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}

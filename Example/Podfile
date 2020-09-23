@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YKNetworking_Example' do
+  pod 'YKNetworking', :path => '../'
+
+  target 'YKNetworking_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
